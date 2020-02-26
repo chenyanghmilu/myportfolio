@@ -66,7 +66,7 @@ function App() {
     <div className={"container" + (nightModeOn ? " night-mode" : "")}>
       <div className={"loading" + (!isLoading ? " loading--done" : "")} onTransitionEnd={hideElement}>
         <div className="loading__contents">
-          <h1 className="loading__name animated fadeInUp"><span>Yang Chen</span></h1>
+          <h1 className="loading__name animated fadeInUp"><span>I AM <span id="name">Yang Chen</span></span></h1>
         </div>
         <div className="loading__bottom-border"></div>
       </div>
@@ -76,7 +76,7 @@ function App() {
         <span onClick={() => setNavbar()} className="navbar__toggle" id="navbar-toggle">
           <i className="fas fa-bars"></i>
         </span>
-        <a href="/" className="navbar__logo">Yang Chen</a>
+        <a href="/myportfolio" className="navbar__logo">Yang Chen</a>
         <Scrollspy items={ ['intro', 'experience', 'projects', 'skills', 'about-me', 'contact-me'] } currentClassName="is-current" offset={-100} className={"navbar__main" + (isNavbarActive ? " active" : "")} id="navbar-main">
           <li className="hidden">
             <a href="#intro" className="navbar__link"> </a>

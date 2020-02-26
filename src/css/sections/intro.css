@@ -24,6 +24,10 @@
   font-weight: bold;
 }
 
+#name{
+  color:gold;
+}
+
 .intro__title {
   display: block;
   margin: 1em 0;
