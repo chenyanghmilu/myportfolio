@@ -1,0 +1,42 @@
+{
+  "name": "yang-chen",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://chenyanghmilu.github.io/myportfolio",
+  "dependencies": {
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "gh-pages": "^2.2.0",
+    "js-cookie": "^2.2.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.4.0",
+    "react-scrollspy": "^3.4.2",
+    "react-swipe": "^6.0.4",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swipe-js-iso": "^2.1.5",
+    "ua-parser-js": "^0.7.20"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

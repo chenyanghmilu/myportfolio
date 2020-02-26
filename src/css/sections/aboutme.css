@@ -1,0 +1,49 @@
+.about-me {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1);
+  grid-template-rows: repeat(4, 1);
+}
+
+#abm{
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+#introyc{
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+#edu{
+  grid-column: 1/4;
+  grid-row: 3;
+}
+.education {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  margin: 10px 0;
+  grid-column: 1/4;
+}
+
+.education__logo {
+  height: 50px;
+}
+
+.education__description {
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+#portrait{
+  max-width: 12rem;
+  margin: 0 auto;
+  grid-column: 1/2;
+  grid-row: 2;
+  position: relative;
+  border-radius: 50%;
+}
