@@ -9,7 +9,7 @@ function AboutMe(props) {
         <img id="portrait" src="images/assets/yangchen.jpg" alt="YAngChen" />
       </div>
       <h4 id="introyc">
-        As a Full-stack Web Developer, with abackground in engineeringtechnology, I do not back down fromchallenges, but seek resources tosolve that problem with a logicalapproach. My approaches andmethodologies to solving problemsprogrammatically are imaginative --yet systematic
+        As a Full-stack Web Developer, with abackground in engineering technology, I do not back down from challenges, but seek resources to solve that problem with a logical approach. My approaches and methodologies to solving problems programmatically are imaginative --yet systematic
       </h4>
       <h3 id="edu">Education</h3>
       <div className="education">
