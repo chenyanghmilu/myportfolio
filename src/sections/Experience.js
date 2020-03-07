@@ -86,8 +86,8 @@ class Experience extends React.Component {
         <span className="experience__header">
           <h2>Experience</h2>
         </span>
-        <span className={"scroll-button scroll-button__previous" + this.toggleScrollButton("L")} onClick={() => this.doScroll("L")}><i className="fas fa-7x fa-chevron-left"></i></span>
-        <span className={"scroll-button scroll-button__next" + this.toggleScrollButton("R")} onClick={() => this.doScroll("R")}><i className="fas fa-7x fa-chevron-right"></i></span>
+        <span className={"scroll-button scroll-button__previous" + this.toggleScrollButton("L")} onClick={() => this.doScroll("L")}></span>
+        <span className={"scroll-button scroll-button__next" + this.toggleScrollButton("R")} onClick={() => this.doScroll("R")}></span>
         <div className="work-items" ref={this.workItemsRef}>
           {
             WORKITEMS.map( (workItem, i) => {

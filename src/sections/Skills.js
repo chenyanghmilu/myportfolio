@@ -26,6 +26,10 @@ function Skills(props) {
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/python.svg" alt=""/>
             <span className="skill__label">Python</span>
           </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icon-svg/C_Sharp_logo.svg" alt=""/>
+            <span className="skill__label">C#</span>
+          </div>
         </div>
         <div className="skill-level">
           <div className="skill">
