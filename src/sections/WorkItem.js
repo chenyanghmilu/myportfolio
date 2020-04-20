@@ -25,6 +25,9 @@ const WorkItem = React.forwardRef((props, ref) => {
       <div className={getDetailsVisibleClass() + "work-item__description"}>
         {props.jobDescription}
       </div>
+      <div className="work-item__technologies">
+        {props.jobTechnologies}
+      </div>
     </div>
   );
 });

@@ -12,13 +12,13 @@ import "regenerator-runtime/runtime";
 
 function App() {
   const [nightModeOn, toggleNightMode] = useState(false);
-  const [isLoading, toggleLoading] = useState(true);
+  const [isLoading, toggleLoading] = useState(false);
   const [isNavbarActive, toggleNavbar] = useState(false);
 
   let setNightMode = () => {
     let newValue = !nightModeOn;
     toggleNightMode(newValue);
-    Cookies.set("night-mode", newValue, {expires: 1});
+    Cookies.set("night-mode", newValue, { expires: 1 });
   };
 
   let setNavbar = () => {
@@ -42,7 +42,7 @@ function App() {
 
   useEffect(() => {
     if (!Cookies.get("night-mode")) {
-      Cookies.set("night-mode", "false", {expires: 1});
+      Cookies.set("night-mode", "false", { expires: 1 });
     }
 
     if (Cookies.get("night-mode") === "false") {
@@ -77,32 +77,32 @@ function App() {
           <i className="fas fa-bars"></i>
         </span>
         <a href="/myportfolio" className="navbar__logo">Yang Chen</a>
-        <Scrollspy items={ ['intro', 'experience', 'projects', 'skills', 'about-me', 'contact-me'] } currentClassName="is-current" offset={-100} className={"navbar__main" + (isNavbarActive ? " active" : "")} id="navbar-main">
+        <Scrollspy items={['intro', 'experience', 'projects', 'skills', 'about-me', 'contact-me']} currentClassName="is-current" offset={-100} className={"navbar__main" + (isNavbarActive ? " active" : "")} id="navbar-main">
           <li className="hidden">
             <a href="#intro" className="navbar__link"> </a>
           </li>
           <li>
-              <a href="#experience" className="navbar__link">Experience</a>
+            <a href="#experience" className="navbar__link">Experience</a>
           </li>
           <li>
-              <a href="#projects" className="navbar__link">Projects</a>
+            <a href="#projects" className="navbar__link">Projects</a>
           </li>
           <li>
-              <a href="#skills" className="navbar__link">Skills</a>
+            <a href="#skills" className="navbar__link">Skills</a>
           </li>
           <li>
-              <a href="#about-me" className="navbar__link">About Me</a>
+            <a href="#about-me" className="navbar__link">About Me</a>
           </li>
           <li>
-              <a href="#contact-me" className="navbar__link">Contact Me</a>
+            <a href="#contact-me" className="navbar__link">Contact Me</a>
           </li>
         </Scrollspy>
       </nav>
-        <Experience />
-        <Projects />
-        <Skills />
-        <AboutMe />
-        <ContactMe />
+      <Experience />
+      <Projects />
+      <Skills />
+      <AboutMe />
+      <ContactMe />
       <footer className=""><span id="copyright">©<span id="copyright-year">2020</span> Yang Chen </span></footer>
 
     </div>

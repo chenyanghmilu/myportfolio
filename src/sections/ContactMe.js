@@ -17,10 +17,10 @@ function ContactMe(props) {
           <a href="files/YangChen.pdf"><i className="fas fa-file-pdf"></i> RESUMÉ</a>
         </li>
         <li className="github-link animated bounceInDown">
-          <a title="Go to my GitHub" href="https://github.com/chenyanghmilu"><i className="fab fa-github fa-lg"></i></a>
+          <a title="Go to my GitHub" href="https://github.com/chenyanghmilu"><i className="fab fa-github"></i></a>
         </li>
         <li className="linkedin-link animated bounceInDown">
-          <a title="Go to my LinkedIn" href="https://www.linkedin.com/in/yang-chen-fullstack/"><i className="fab fa-linkedin-in fa-lg"></i></a>
+          <a title="Go to my LinkedIn" href="https://www.linkedin.com/in/yang-chen-fullstack/"><i className="fab fa-linkedin-in"></i></a>
         </li>
       </ul>
     </section>
