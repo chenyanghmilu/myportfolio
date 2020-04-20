@@ -19,7 +19,7 @@ class Experience extends React.Component {
     super(props);
     this.state = {
       itemInView: 0,
-      prevIntersectionRatios: [0,0,0],
+      prevIntersectionRatios: [0, 0, 0],
     }
     this.workItemsRef = React.createRef();
     this.singleWorkItemRefs = WORKITEMS.map((elem, i) => {
@@ -32,17 +32,17 @@ class Experience extends React.Component {
 
   componentDidMount() {
     const callback = entries => {
-      entries.forEach( entry => {
+      entries.forEach(entry => {
         let itemId = entry.target.id;
         let prevRatios = this.state.prevIntersectionRatios.slice();
-          if (entry.intersectionRatio >= THRESHOLD && entry.intersectionRatio >= prevRatios[itemId]) {
-            this.setState({
-              itemInView: parseInt(entry.target.id),
-            });
-          }
-          prevRatios[itemId] = entry.intersectionRatio;
-          this.setState({prevIntersectionRatios: prevRatios});
+        if (entry.intersectionRatio >= THRESHOLD && entry.intersectionRatio >= prevRatios[itemId]) {
+          this.setState({
+            itemInView: parseInt(entry.target.id),
+          });
         }
+        prevRatios[itemId] = entry.intersectionRatio;
+        this.setState({ prevIntersectionRatios: prevRatios });
+      }
       );
     };
 
@@ -75,7 +75,7 @@ class Experience extends React.Component {
       if (itemToScrollTo < this.singleWorkItemRefs.length && itemToScrollTo >= 0) {
         scrollByY = this.singleWorkItemRefs[itemToScrollTo].ref.current.clientWidth;
         scrollByY = side === "L" ? -scrollByY : scrollByY;
-        this.workItemsRef.current.scrollBy({top: 0, left: scrollByY, behavior: "smooth"});
+        this.workItemsRef.current.scrollBy({ top: 0, left: scrollByY, behavior: "smooth" });
       }
     }
   }
@@ -86,19 +86,19 @@ class Experience extends React.Component {
         <span className="experience__header">
           <h2>Experience</h2>
         </span>
-        <span className={"scroll-button scroll-button__previous" + this.toggleScrollButton("L")} onClick={() => this.doScroll("L")}></span>
-        <span className={"scroll-button scroll-button__next" + this.toggleScrollButton("R")} onClick={() => this.doScroll("R")}></span>
+        <span className={"scroll-button scroll-button__previous" + this.toggleScrollButton("L")} onClick={() => this.doScroll("L")}><i className="fas fa-7x fa-chevron-left"></i></span>
+        <span className={"scroll-button scroll-button__next" + this.toggleScrollButton("R")} onClick={() => this.doScroll("R")}><i className="fas fa-7x fa-chevron-right"></i></span>
         <div className="work-items" ref={this.workItemsRef}>
           {
-            WORKITEMS.map( (workItem, i) => {
+            WORKITEMS.map((workItem, i) => {
               return <WorkItem key={i} ref={this.singleWorkItemRefs[i].ref}
-              workItemId={i}
-              company={workItem.company}
-              jobTitle={workItem.jobTitle}
-              jobDuration={workItem.jobDuration}
-              jobSummary={workItem.jobSummary}
-              jobDescription={workItem.jobDescription}
-              jobTechnologies={workItem.jobTechnologies} />
+                workItemId={i}
+                company={workItem.company}
+                jobTitle={workItem.jobTitle}
+                jobDuration={workItem.jobDuration}
+                jobSummary={workItem.jobSummary}
+                jobDescription={workItem.jobDescription}
+                jobTechnologies={workItem.jobTechnologies} />
             })
           }
         </div>
