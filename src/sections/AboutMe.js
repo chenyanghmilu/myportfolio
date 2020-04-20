@@ -6,7 +6,7 @@ function AboutMe(props) {
       <h2 id="abm">About Me</h2>
       {/* downloads image on initial page load rather than waiting for hover pseudo-class (only works on Firefox) */}
       <div>
-        <img id="portrait" src="images/assets/yangchen.jpg" alt="YAngChen" />
+        <img id="portrait" src="images/assets/yangchen.jpg" alt="YangChen" />
       </div>
       <h4 id="introyc">
         As a Full-stack Web Developer, with abackground in engineering technology, I do not back down from challenges, but seek resources to solve that problem with a logical approach. My approaches and methodologies to solving problems programmatically are imaginative --yet systematic

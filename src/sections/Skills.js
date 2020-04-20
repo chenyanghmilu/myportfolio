@@ -27,7 +27,7 @@ function Skills(props) {
             <span className="skill__label">Python</span>
           </div>
           <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icon-svg/C_Sharp_logo.svg" alt=""/>
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C_Sharp_logo.svg" alt=""/>
             <span className="skill__label">C#</span>
           </div>
         </div>
