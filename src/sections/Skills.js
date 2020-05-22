@@ -53,6 +53,18 @@ function Skills(props) {
             <span className="skill__label">jQuery</span>
           </div>
           <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/node-sass.svg" alt="" />
+            <span className="skill__label">SCSS</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/redux.svg" alt="" />
+            <span className="skill__label">Redux</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Vue.svg" alt="" />
+            <span className="skill__label">VUE</span>
+          </div>
+          <div className="skill">
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/bootstrap.svg" alt="" />
             <span className="skill__label">Bootstrap 4</span>
           </div>

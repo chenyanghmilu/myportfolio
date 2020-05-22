@@ -5,6 +5,16 @@ function Projects(props) {
     <section id="projects" className="projects">
       <h2>Projects</h2>
       <div className="project-item">
+        <h3 className="project-item__title">Online Store </h3>
+        <a title="Go to Blog demo page" target="blank" href="https://ycstoreonline.herokuapp.com">
+          <img className="project-item__image" alt="" src="images/projects/onlineStore.png" />
+        </a>
+        <p className="project-item__description">
+          Created a full-stack online store application which is e-commerce demo to signup and login; show shop items; add to cart; payment system API.
+          <br />Technology: <b>React</b>, <b>Redux</b>, <b>SCSS</b>, <b>NodeJS</b> and <b>Firebase</b>.
+        </p>
+      </div>
+      <div className="project-item">
         <h3 className="project-item__title">Blog </h3>
         <a title="Go to Blog demo page" target="blank" href="http://yangchenblog.herokuapp.com">
           <img className="project-item__image" alt="" src="images/projects/blog.png" />
