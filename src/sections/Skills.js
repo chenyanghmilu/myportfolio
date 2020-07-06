@@ -49,6 +49,10 @@ function Skills(props) {
             <span className="skill__label">React</span>
           </div>
           <div className="skill">
+            <img className="skill__icon" src="images/language-icons-svg/expo.svg" alt="" />
+            <span className="skill__label">Expo React-Native</span>
+          </div>
+          <div className="skill">
             <img className="skill__icon" src="images/language-icons-svg/jquery.svg" alt="" />
             <span className="skill__label">jQuery</span>
           </div>
@@ -67,6 +71,10 @@ function Skills(props) {
           <div className="skill">
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/bootstrap.svg" alt="" />
             <span className="skill__label">Bootstrap 4</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/firebase.svg" alt="" />
+            <span className="skill__label">FireBase</span>
           </div>
         </div>
       </div>
