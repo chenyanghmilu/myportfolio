@@ -60,7 +60,7 @@ class Experience extends React.Component {
   }
 
   toggleScrollButton(side) {
-    return (this.state.itemInView === 2 && side === "R") ? " hidden" : (this.state.itemInView === 0 && side === "L") ? " hidden" : "";
+    return (this.state.itemInView === 3 && side === "R") ? " hidden" : (this.state.itemInView === 0 && side === "L") ? " hidden" : "";
   }
 
   doScroll(side) {
@@ -106,9 +106,10 @@ class Experience extends React.Component {
         <div className="circle-indicators" aria-hidden="true">
           <i className={(this.state.itemInView === 0 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
           <i className={(this.state.itemInView === 1 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
-          <i className={(this.state.itemInView === 2 ? "fas" : "far") + " fa-circle"}></i>
+          <i className={(this.state.itemInView === 2 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
+          <i className={(this.state.itemInView === 3 ? "fas" : "far") + " fa-circle"}></i>
         </div>
-        <span className="experience__work-item-index" aria-hidden="true">{this.state.itemInView + 1} of 3</span>
+        <span className="experience__work-item-index" aria-hidden="true">{this.state.itemInView + 1} of 4</span>
       </section>
     );
   }

@@ -8,8 +8,8 @@ const WI0 = {
   jobDescription: (
     <ul>
       <li>
-        Designed and developed multiple Web and mobile App with React
-        JavaScript, React Native, Firebase, Bitbucket;
+        Design and develope multiple Web and mobile App with React JavaScript,
+        React Native, Firebase, Bitbucket;
       </li>
       <li>API integration using RESTful/JSON.</li>
       <li>

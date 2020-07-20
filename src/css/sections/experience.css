@@ -2,11 +2,11 @@
   padding: var(--vertical-gutter) 0;
   display: grid;
   grid-template-columns: var(--horizontal-gutter) 1fr 1fr 1fr var(--horizontal-gutter);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
-  ". header header header ."
-  "work-items work-items work-items work-items work-items"
-  ". . indicators work-item-index .";
+    ". header header header ."
+    "work-items work-items work-items work-items work-items"
+    ". . indicators work-item-index .";
   position: relative;
   background-color: #e0e5df;
 }
@@ -32,9 +32,7 @@
   display: grid;
   grid-gap: calc(var(--horizontal-gutter) / 2);
   grid-template-columns:
-  calc(var(--horizontal-gutter) / 2)
-  repeat(3, calc(100% - 2 * var(--horizontal-gutter)))
-  calc(var(--horizontal-gutter) / 2);
+    calc(var(--horizontal-gutter) / 2) repeat(4, calc(100% - 2 * var(--horizontal-gutter))) calc(var(--horizontal-gutter) / 2);
   grid-template-rows: minmax(150px, 1fr);
   /* hide scrollbar on FireFox */
   scrollbar-width: none;
@@ -57,10 +55,10 @@
   top: 60%;
   cursor: pointer;
   z-index: 1;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 3px;
-  box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2), 2px 2px 5px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 2px 2px 5px 3px rgba(0, 0, 0, 0.05);
 }
 
 .scroll-button__previous {
@@ -77,7 +75,7 @@
   padding: 20px 30px;
   border-left: rgb(77, 139, 69) solid 5px;
   background: white;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15), 0 2px 10px 0 rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
   border-radius: 6px;
   position: relative;
   text-align: center;
@@ -107,5 +105,5 @@
   justify-self: center;
   font-size: 1.6em;
   color: black;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
