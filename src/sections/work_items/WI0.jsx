@@ -3,7 +3,7 @@ import React from "react";
 const WI0 = {
   company: "ProjectDS Web/App Development",
   jobTitle: "Software Developer",
-  jobDuration: "June 2020 — Sep 2020",
+  jobDuration: "June 2020 — September 2020",
   jobSummary: "",
   jobDescription: (
     <ul>
