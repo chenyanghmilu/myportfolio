@@ -79,6 +79,7 @@
   border-radius: 6px;
   position: relative;
   text-align: center;
+  font-size: 20px;
 }
 
 .work-item:focus {

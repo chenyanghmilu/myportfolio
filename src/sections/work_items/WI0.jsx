@@ -4,7 +4,7 @@ const WI0 = {
   company: "ProjectDS Web/App Development",
   jobTitle: "Software Developer",
   jobDuration: "June 2020 — Present",
-  jobSummary: "SOFTWARE ENGINEERING IMMERSIVE PROGRAM.",
+  jobSummary: "",
   jobDescription: (
     <ul>
       <li>
@@ -36,6 +36,13 @@ const WI0 = {
         <img
           className="skill__icon skill__icon--xsmall"
           src="images/language-icons-svg/react.svg"
+          alt=""
+        />
+      </div>
+      <div className="skill">
+        <img
+          className="skill__icon skill__icon--xsmall"
+          src="images/language-icons-svg/expo.svg"
           alt=""
         />
       </div>
