@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px){
+@media screen and (min-width: 450px) {
   :root {
     --vertical-gutter: 3em;
     --horizontal-gutter: 4em;
@@ -14,7 +14,6 @@
 }
 
 @media screen and (min-width: 600px) {
-
   .work-item {
     margin: 40px 0;
     padding: 3em 4em;
@@ -67,7 +66,9 @@
     align-items: center;
   }
 
-  .navbar > .navbar__logo, .navbar > .navbar__main, .navbar__main li {
+  .navbar > .navbar__logo,
+  .navbar > .navbar__main,
+  .navbar__main li {
     align-self: stretch;
     display: flex;
     align-items: center;
@@ -203,13 +204,13 @@
     .work-item {
       display: -ms-grid;
       display: grid;
-      grid-template-columns: 4fr 3fr;
-      grid-template-rows: repeat(4, auto);
+      /* grid-template-columns: 4fr 3fr; */
+      grid-template-rows: repeat(5, auto);
       grid-template-areas:
-      "company company"
-      "position position"
-      "summary summary"
-      "description technologies"
+        "company company"
+        "position position"
+        "summary summary"
+        "description technologies";
     }
 
     .work-item > h3 {
@@ -270,16 +271,20 @@
 }
 
 /* IE/Edge fallbacks */
-_:-ms-lang(x), .work-items {
+_:-ms-lang(x),
+.work-items {
   display: block;
-  padding: 0 var(--horizontal-gutter) var(--vertical-gutter) var(--horizontal-gutter) ;
+  padding: 0 var(--horizontal-gutter) var(--vertical-gutter)
+    var(--horizontal-gutter);
 }
 
-_:-ms-lang(x), .experience__work-item-index {
+_:-ms-lang(x),
+.experience__work-item-index {
   display: none;
 }
 
-_:-ms-lang(x), .scroll-button {
+_:-ms-lang(x),
+.scroll-button {
   display: none;
 }
 

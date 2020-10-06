@@ -1,8 +1,10 @@
 .experience {
   padding: var(--vertical-gutter) 0;
   display: grid;
-  grid-template-columns: var(--horizontal-gutter) 1fr 1fr 1fr var(--horizontal-gutter);
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: var(--horizontal-gutter) 1fr 1fr 1fr var(
+      --horizontal-gutter
+    );
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     ". header header header ."
     "work-items work-items work-items work-items work-items"
@@ -32,7 +34,11 @@
   display: grid;
   grid-gap: calc(var(--horizontal-gutter) / 2);
   grid-template-columns:
-    calc(var(--horizontal-gutter) / 2) repeat(4, calc(100% - 2 * var(--horizontal-gutter))) calc(var(--horizontal-gutter) / 2);
+    calc(var(--horizontal-gutter) / 2) repeat(
+      5,
+      calc(100% - 2 * var(--horizontal-gutter))
+    )
+    calc(var(--horizontal-gutter) / 2);
   grid-template-rows: minmax(150px, 1fr);
   /* hide scrollbar on FireFox */
   scrollbar-width: none;
@@ -58,7 +64,8 @@
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 3px;
-  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 2px 2px 5px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2),
+    2px 2px 5px 3px rgba(0, 0, 0, 0.05);
 }
 
 .scroll-button__previous {

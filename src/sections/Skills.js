@@ -76,6 +76,14 @@ function Skills(props) {
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/firebase.svg" alt="" />
             <span className="skill__label">FireBase</span>
           </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/ruby.svg" alt="" />
+            <span className="skill__label">Ruby</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Ruby_On_Rails.svg" alt="" />
+            <span className="skill__label">Rails</span>
+          </div>
         </div>
       </div>
       <div className="radargraph-holder" aria-hidden="true"></div>
