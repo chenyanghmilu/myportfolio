@@ -4,6 +4,7 @@ import WI1 from './work_items/WI1.jsx';
 import WI2 from './work_items/WI2.jsx';
 import WI3 from './work_items/WI3.jsx';
 import WI0 from './work_items/WI0.jsx';
+import WI4 from './work_items/WI4.jsx'
 // import smoothscroll from 'smoothscroll-polyfill';
 // import scrollSnapPolyfill from 'css-scroll-snap-polyfill'
 
@@ -11,7 +12,7 @@ import WI0 from './work_items/WI0.jsx';
 // scrollSnapPolyfill();
 let parser = require('ua-parser-js');
 let ua = parser();
-const WORKITEMS = [WI0, WI1, WI2, WI3];
+const WORKITEMS = [WI4, WI0, WI1, WI2, WI3];
 const THRESHOLD = 0.75;
 const ISIEBROWSER = ua.browser.name.toLowerCase() === "ie" || ua.browser.name.toLowerCase() === "edge";
 

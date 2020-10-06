@@ -1,26 +1,27 @@
 import React from "react";
 
-const WI0 = {
-  company: "ProjectDS Web/App Development",
-  jobTitle: "Software Developer",
-  jobDuration: "June 2020 — Aug 2020",
+const WI4 = {
+  company: <a href="https://freshfind.ca/">Freshfind</a>,
+  jobTitle: "Software Engineer",
+  jobDuration: "Sep 2020 — Present",
   jobSummary: "",
   jobDescription: (
     <ul>
       <li>
-        Design and develope multiple Web and mobile App with React JavaScript,
-        React Native, Firebase, Bitbucket;
+        Full-stack software design and development, primarily in Ruby and JS.
       </li>
-      <li>API integration using RESTful/JSON.</li>
       <li>
-        Agile development works with other teams to gather and refine
-        specifications and requirements based on technical needs.
+        Gather and refine requirements and specifications based on business
+        needs.
       </li>
-      <li>Independently analyze problems and develop creative solutions.</li>
-      <li>Troubleshooting real-world production issues under fire.</li>
-      <li>Create and maintain documentation.</li>
-      <li>Review others’ code to ensure all the best standards are met.</li>
-      <li>Assist teammates with turning around changes from feedback.</li>
+      <li>
+        Create the website layout/user interface by using standard HTML/CSS
+        practices.
+      </li>
+      <li>Create and maintain software/architecture documentation.</li>
+      <li>Building and maintaining new features and functionality.</li>
+      <li>Communicating with engineering leadership about requirements.</li>
+      <li>Use Jira to complete agile development.</li>
     </ul>
   ),
   jobTechnologies: (
@@ -35,21 +36,21 @@ const WI0 = {
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/react.svg"
+          src="images/language-icons-svg/ruby.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/expo.svg"
+          src="images/language-icons-svg/Ruby_On_Rails.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/firebase.svg"
+          src="images/language-icons-svg/PostgreSQL_logo.3colors.svg"
           alt=""
         />
       </div>
@@ -78,4 +79,4 @@ const WI0 = {
   ),
 };
 
-export default WI0;
+export default WI4;
