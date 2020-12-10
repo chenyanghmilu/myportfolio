@@ -3,7 +3,7 @@ import React from "react";
 const WI4 = {
   company: <a href="https://freshfind.ca/">Freshfind</a>,
   jobTitle: "Software Engineer",
-  jobDuration: "Sep 2020 — Present",
+  jobDuration: "Jun 2020 — Present",
   jobSummary: "",
   jobDescription: (
     <ul>

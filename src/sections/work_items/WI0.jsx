@@ -2,8 +2,8 @@ import React from "react";
 
 const WI0 = {
   company: "ProjectDS Web/App Development",
-  jobTitle: "Software Developer",
-  jobDuration: "June 2020 — Aug 2020",
+  jobTitle: "Software Developer Intern",
+  jobDuration: "Mar 2020 — Jun 2020",
   jobSummary: "",
   jobDescription: (
     <ul>
@@ -18,9 +18,6 @@ const WI0 = {
       </li>
       <li>Independently analyze problems and develop creative solutions.</li>
       <li>Troubleshooting real-world production issues under fire.</li>
-      <li>Create and maintain documentation.</li>
-      <li>Review others’ code to ensure all the best standards are met.</li>
-      <li>Assist teammates with turning around changes from feedback.</li>
     </ul>
   ),
   jobTechnologies: (
