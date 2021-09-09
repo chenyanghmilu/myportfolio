@@ -1,27 +1,24 @@
 import React from "react";
 
 const WI4 = {
-  company: <a href="https://freshfind.ca/">Freshfind</a>,
+  company: <a href="https://freshfind.ca/">freshfind.ca</a>,
   jobTitle: "Software Engineer",
   jobDuration: "Jun 2020 — Present",
   jobSummary: "",
   jobDescription: (
     <ul>
-      <li>
-        Full-stack software design and development, primarily in Ruby and JS.
-      </li>
+      <li>Full-stack software design and development.</li>
       <li>
         Gather and refine requirements and specifications based on business
         needs.
       </li>
-      <li>
-        Create the website layout/user interface by using standard HTML/CSS
-        practices.
-      </li>
+      <li>Create the website layout/user interface.</li>
       <li>Create and maintain software/architecture documentation.</li>
-      <li>Building and maintaining new features and functionality.</li>
+      <li>
+        Assist develop features including shopping cart, image uploading
+        validation.
+      </li>
       <li>Communicating with engineering leadership about requirements.</li>
-      <li>Use Jira to complete agile development.</li>
     </ul>
   ),
   jobTechnologies: (

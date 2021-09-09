@@ -8,16 +8,15 @@ const WI0 = {
   jobDescription: (
     <ul>
       <li>
-        Design and develope multiple Web and mobile App with React JavaScript,
-        React Native, Firebase, Bitbucket;
+        Assist in creating a visual representation of the pathway in our
+        product.
       </li>
-      <li>API integration using RESTful/JSON.</li>
       <li>
-        Agile development works with other teams to gather and refine
-        specifications and requirements based on technical needs.
+        Worked with a team of developers to maintain and improve the customer’s
+        admin management system.
       </li>
-      <li>Independently analyze problems and develop creative solutions.</li>
-      <li>Troubleshooting real-world production issues under fire.</li>
+      <li>Refactored legacy code needed for daily processes.</li>
+      <li>Debugged and modified software components.</li>
     </ul>
   ),
   jobTechnologies: (

@@ -105,11 +105,11 @@ class Experience extends React.Component {
           }
         </div>
         <div className="circle-indicators" aria-hidden="true">
-          <i className={(this.state.itemInView === 4 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
           <i className={(this.state.itemInView === 0 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
           <i className={(this.state.itemInView === 1 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
           <i className={(this.state.itemInView === 2 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
-          <i className={(this.state.itemInView === 3 ? "fas" : "far") + " fa-circle"}></i>
+          <i className={(this.state.itemInView === 3 ? "fas" : "far") + " fa-circle"}></i>&nbsp;
+          <i className={(this.state.itemInView === 4 ? "fas" : "far") + " fa-circle"}></i>
         </div>
         <span className="experience__work-item-index" aria-hidden="true">{this.state.itemInView + 1} of 5</span>
       </section>
