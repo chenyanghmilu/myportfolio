@@ -27,8 +27,12 @@ function Skills(props) {
             <span className="skill__label">Python</span>
           </div>
           <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C_Sharp_logo.svg" alt="" />
-            <span className="skill__label">C#</span>
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C_Programming_Language.svg" alt="" />
+            <span className="skill__label">C</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C++.svg" alt="" />
+            <span className="skill__label">C++</span>
           </div>
         </div>
         <div className="skill-level">
@@ -39,6 +43,10 @@ function Skills(props) {
           <div className="skill">
             <img className="skill__icon" src="images/language-icons-svg/PostgreSQL_logo.3colors.svg" alt="" />
             <span className="skill__label">PostgreSQL</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/firebase.svg" alt="" />
+            <span className="skill__label">FireBase</span>
           </div>
           <div className="skill">
             <img className="skill__icon" src="images/language-icons-svg/django-logo-positive.svg" alt="" />
@@ -55,26 +63,6 @@ function Skills(props) {
           <div className="skill">
             <img className="skill__icon" src="images/language-icons-svg/jquery.svg" alt="" />
             <span className="skill__label">jQuery</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/node-sass.svg" alt="" />
-            <span className="skill__label">SCSS</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/redux.svg" alt="" />
-            <span className="skill__label">Redux</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Vue.svg" alt="" />
-            <span className="skill__label">VUE</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/bootstrap.svg" alt="" />
-            <span className="skill__label">Bootstrap 4</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/firebase.svg" alt="" />
-            <span className="skill__label">FireBase</span>
           </div>
           <div className="skill">
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/ruby.svg" alt="" />

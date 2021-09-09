@@ -13,6 +13,10 @@ function AboutMe(props) {
       </h4>
       <h3 id="edu">Education</h3>
       <div className="education">
+        <img className="education__logo" src="images/education/seneca.png" alt="Seneca logo" />
+        <p className="education__description"><b>Computer Program Analysis</b>, Seneca College</p>
+      </div>
+      <div className="education">
         <img className="education__logo" src="images/education/PinClipart.com_assembly-clip-art_3859728.png" alt="General Assembly logo" />
         <p className="education__description"><b>Software Engineering Immersive</b>, General Assembly</p>
       </div>
