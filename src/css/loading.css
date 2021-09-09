@@ -7,7 +7,7 @@
   width: 100vw;
   background-image: url("../images/citybg.jpg");
   color: white;
-  --my-timing-function: cubic-bezier(.18,.58,.27,.99);
+  --my-timing-function: cubic-bezier(0.18, 0.58, 0.27, 0.99);
   --bottom-border-height: 5px;
 }
 
@@ -21,7 +21,6 @@
   justify-items: center;
   background: rgb(17, 19, 23);
   background: rgba(255, 255, 255, 0.1);
-
 }
 
 .loading__name {
@@ -48,7 +47,6 @@
   animation: blink 0.5s ease infinite;
   animation-direction: alternate;
 }
-
 
 .loading--done {
   transform: scaleY(0.3) translateY(-100vh);

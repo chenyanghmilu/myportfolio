@@ -8,18 +8,18 @@
 
 .intro__name {
   margin: 0;
-  font-size: 5.0em;
+  font-size: 5em;
   font-weight: normal;
   line-height: 1.3em;
   opacity: 0;
 }
 
-.intro--loading-done>.intro__name {
+.intro--loading-done > .intro__name {
   animation: fadeIn 1.3s 1.9s ease-out;
   animation-fill-mode: both;
 }
 
-.intro__name>span {
+.intro__name > span {
   font-weight: bold;
 }
 
@@ -36,7 +36,7 @@
   opacity: 0;
 }
 
-.intro--loading-done>.intro__title {
+.intro--loading-done > .intro__title {
   animation: fadeIn 1.3s 2.5s ease-out;
   animation-fill-mode: both;
 }
@@ -75,7 +75,7 @@
   background: #87e0fd;
   overflow: hidden;
   height: 100%;
-  animation: dark-bright 5s linear 2s 1 normal both;
+  animation: dark-bright 2s linear 1s 1 normal both;
 }
 
 .sunburst {
@@ -162,7 +162,6 @@
   }
 }
 
-
 #hill1,
 #hill2,
 #hill3 {
@@ -174,7 +173,7 @@
 #hill2-clone,
 #hill3-clone {
   position: absolute;
-  animation: hill-green 5s linear 2s 1 normal both;
+  animation: hill-green 2s linear 1s 1 normal both;
 }
 
 #hill1,
@@ -207,7 +206,6 @@
   top: 70%;
   left: 60%;
 }
-
 
 #shutter {
   animation: hit-the-lights 3s linear 0s 1 normal both;
