@@ -27,11 +27,11 @@ function Skills(props) {
             <span className="skill__label">Python</span>
           </div>
           <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C_Programming_Language.svg" alt="" />
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/c.svg" alt="" />
             <span className="skill__label">C</span>
           </div>
           <div className="skill">
-            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/C++.svg" alt="" />
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/c++.svg" alt="" />
             <span className="skill__label">C++</span>
           </div>
         </div>
