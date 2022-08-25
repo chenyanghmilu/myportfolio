@@ -1,24 +1,39 @@
 import React from "react";
 
-const WI4 = {
-  company: <a href="https://freshfind.ca/">freshfind.ca</a>,
-  jobTitle: "Software Engineer",
-  jobDuration: "Jun 2020 — Sep 2021",
+const WI5 = {
+  company: <a href="https://hoopp.com/">Healthcare of Ontario Pension Plan</a>,
+  jobTitle: "System Developer",
+  jobDuration: "Jan 2022 — Aug 2022",
   jobSummary: "",
   jobDescription: (
     <ul>
-      <li>Full-stack software design and development.</li>
       <li>
-        Gather and refine requirements and specifications based on business
-        needs.
+        Develop and Improve test automation cases with automation tools and
+        technologies.
       </li>
-      <li>Create the website layout.</li>
-      <li>Create and maintain software/architecture documentation.</li>
       <li>
-        Assist develop features including shopping cart, image uploading
-        validation.
+        Develop automated scripts to validate end-to-end processes supporting
+        data ingestion, data transformations, data wrangling, and data cleansing
+        delivery using C#, SQL, and Selenium.
       </li>
-      <li>Communicating with engineering leadership about requirements.</li>
+      <li>
+        Collaborate with the Agile team to plan and identify testing scope,
+        validate software delivery, and call out issues as needed.
+      </li>
+      <li>
+        Perform testing on Azure test plan/pipeline, including unit testing,
+        component testing, integration testing, end-to-end testing, regression
+        testing.
+      </li>
+      <li>
+        Gather specifications and requirements on source systems to build test
+        requirements and data.
+      </li>
+      <li>
+        Assist with testing-related technical challenges, perform root-cause
+        analysis to answer specific business questions, and recommend and
+        implement ways to improve data reliability, efficiency, and quality.
+      </li>
     </ul>
   ),
   jobTechnologies: (
@@ -76,4 +91,4 @@ const WI4 = {
   ),
 };
 
-export default WI4;
+export default WI5;
