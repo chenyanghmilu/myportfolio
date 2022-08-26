@@ -41,49 +41,35 @@ const WI5 = {
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/javascript.svg"
+          src="images/language-icons-svg/Azure.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/ruby.svg"
+          src="images/language-icons-svg/Selenium_logo.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/Ruby_On_Rails.svg"
+          src="images/language-icons-svg/microsoft-sql-server-logo-svgrepo-com.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/PostgreSQL_logo.3colors.svg"
+          src="images/language-icons-svg/C_Sharp_logo.svg"
           alt=""
         />
       </div>
       <div className="skill">
         <img
           className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/html5.svg"
-          alt=""
-        />
-      </div>
-      <div className="skill">
-        <img
-          className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/css3.svg"
-          alt=""
-        />
-      </div>
-      <div className="skill">
-        <img
-          className="skill__icon skill__icon--xsmall"
-          src="images/language-icons-svg/nodejs-seeklogo.com.svg"
+          src="images/language-icons-svg/PowerShell.svg"
           alt=""
         />
       </div>
