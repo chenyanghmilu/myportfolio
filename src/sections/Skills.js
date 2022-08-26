@@ -57,20 +57,28 @@ function Skills(props) {
             <span className="skill__label">React</span>
           </div>
           <div className="skill">
-            <img className="skill__icon" src="images/language-icons-svg/expo.svg" alt="" />
-            <span className="skill__label">Expo React-Native</span>
-          </div>
-          <div className="skill">
-            <img className="skill__icon" src="images/language-icons-svg/jquery.svg" alt="" />
-            <span className="skill__label">jQuery</span>
-          </div>
-          <div className="skill">
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/ruby.svg" alt="" />
             <span className="skill__label">Ruby</span>
           </div>
           <div className="skill">
             <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Ruby_On_Rails.svg" alt="" />
             <span className="skill__label">Rails</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Azure.svg" alt="" />
+            <span className="skill__label">Azure Dev-Ops</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/Selenium_logo.svg" alt="" />
+            <span className="skill__label">Selenium</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/microsoft-sql-server-logo-svgrepo-com.svg" alt="" />
+            <span className="skill__label">Microsoft Server SQL</span>
+          </div>
+          <div className="skill">
+            <img className="skill__icon skill__icon--medium" src="images/language-icons-svg/PowerShell.svg" alt="" />
+            <span className="skill__label">PowerShell</span>
           </div>
         </div>
       </div>
