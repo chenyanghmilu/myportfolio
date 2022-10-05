@@ -8,31 +8,29 @@ const WI5 = {
   jobDescription: (
     <ul>
       <li>
-        Develop and Improve test automation cases with automation tools and
-        technologies.
+        Collaborate with the Agile team to plan and identify the testing scope
+        and validate software delivery.
       </li>
       <li>
-        Develop automated scripts to validate end-to-end processes supporting
-        data ingestion, data transformations, data wrangling, and data cleansing
-        delivery using C#, SQL, and Selenium.
+        Work with BA and related stakeholders to gather specifications and
+        requirements on source systems to build test conditions.
       </li>
       <li>
-        Collaborate with the Agile team to plan and identify testing scope,
-        validate software delivery, and call out issues as needed.
+        Automate testing cases using Selenium and NUnit based on testing
+        requirements to validate end-to-end processes supporting data ingestion,
+        data transformation and data cleaning.
       </li>
       <li>
-        Perform testing on Azure test plan/pipeline, including unit testing,
-        component testing, integration testing, end-to-end testing, regression
-        testing.
+        Execute test cases using Azure Test Plans and Pipeline, including unit
+        testing, component testing, integration testing and regression testing.
       </li>
       <li>
-        Gather specifications and requirements on source systems to build test
-        requirements and data.
+        Develop and update PowerShell scripts to improve the efficiency and
+        stability of pipeline operation.
       </li>
       <li>
-        Assist with testing-related technical challenges, perform root-cause
-        analysis to answer specific business questions, and recommend and
-        implement ways to improve data reliability, efficiency, and quality.
+        Assist with testing-related technical challenges and perform root-cause
+        analysis to answer specific business questions.
       </li>
     </ul>
   ),

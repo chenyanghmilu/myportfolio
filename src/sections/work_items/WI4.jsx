@@ -7,18 +7,19 @@ const WI4 = {
   jobSummary: "",
   jobDescription: (
     <ul>
-      <li>Full-stack software design and development.</li>
       <li>
         Gather and refine requirements and specifications based on business
         needs.
       </li>
-      <li>Create the website layout.</li>
-      <li>Create and maintain software/architecture documentation.</li>
       <li>
-        Assist develop features including shopping cart, image uploading
+        Create the website layouts using Rails, HTML, CSS, JavaScript,
+        Bootstrap, Google APIs and AWS.
+      </li>
+      <li>
+        Assist develop features including shopping cart image uploading
         validation.
       </li>
-      <li>Communicating with engineering leadership about requirements.</li>
+      <li>Communicate with engineering leadership about requirements.</li>
     </ul>
   ),
   jobTechnologies: (
